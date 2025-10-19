@@ -17,7 +17,7 @@ It provides HTML-based syntax highlighting and supports various template engines
 
 ## Technical Stack
 
-This extension uses the [Tree Sitter grammar for Glimmer](https://github.com/ember-tooling/tree-sitter-glimmer) created by the Ember Tooling team.
+This extension uses the [Tree Sitter grammar for Handlebars](https://github.com/trillioneyes/tree-sitter-handlebars) created by Alyssa Carter, with HTML injection for comprehensive template highlighting.
 
 ## Installation
 
@@ -36,8 +36,8 @@ This extension uses the [Tree Sitter grammar for Glimmer](https://github.com/emb
 ## References
 
 - [Handlebars Official Guide](https://handlebarsjs.com/guide/)
-- [Mustache Spec](https://github.com/mustache/spec/tree/master/specs)
-- [Tree Sitter Glimmer Grammar](https://github.com/ember-tooling/tree-sitter-glimmer)
+- [Handlebars Specification](https://github.com/handlebars-lang/specification/blob/master/SPECIFICATION.md)
+- [Tree Sitter Handlebars Grammar](https://github.com/trillioneyes/tree-sitter-handlebars)
 
 ## License
 
@@ -45,4 +45,4 @@ MIT
 
 ## Credits
 
-Thank you to the creators of the Tree Sitter grammar for Glimmer from the Ember Tooling team.
+Thank you to Alyssa Carter for creating the Tree Sitter grammar for Handlebars.

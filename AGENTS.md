@@ -44,7 +44,4 @@ handlebar is exchangeable with mustache template engine. Compatible extensions a
 'mustache'
 'stache'
 
-Here is spec link https://github.com/mustache/spec/tree/master/specs
-And handlebars is here https://handlebarsjs.com/guide/
-
-Plan it and build it.
+refer @README.md file. Plan it and build it.
