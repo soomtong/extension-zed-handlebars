@@ -20,3 +20,31 @@
 - Error handling: N/A for config files; queries should be valid Scheme
 - Imports: N/A; no code imports
 - Formatting: Standard TOML/Scheme formatting, no custom rules
+
+## Prompts
+
+Zed is an modern editor that rust language based native application not like vscode.
+This project, a template engine syntax highlighter for Handlebar .hbs file for zed.
+Whole syntax highlight it based on HTML.
+
+Basic documents for build extension is here: https://zed.dev/docs/extensions/languages
+
+schema version = 1.0
+author is 'soomtong'
+repository = 'https://github.com/soomtong/extention-zed-handlebars
+
+handlebar is exchangeable with mustache template engine. Compatible extensions are
+
+'handlebars'
+'hdbs'
+'hbs'
+'hjs'
+'mst'
+'mu'
+'mustache'
+'stache'
+
+Here is spec link https://github.com/mustache/spec/tree/master/specs
+And handlebars is here https://handlebarsjs.com/guide/
+
+Plan it and build it.
