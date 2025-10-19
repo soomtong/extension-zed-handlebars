@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  <h1>{{name}}</h1>
+  <p>{{description}}</p>
+
+  {{#each items}}
+    <div class="item">
+      <h2>{{this.title}}</h2>
+      <p>{{this.description}}</p>
+      {{#if this.active}}
+        <span class="active">Active</span>
+      {{/if}}
+    </div>
+  {{/each}}
+
+  {{!-- This is a comment --}}
+  {{{rawContent}}}
+
+  {{#unless empty}}
+    <p>Not empty</p>
+  {{/unless}}
+
+  {{> partial param=value}}
+</body>
+</html>
