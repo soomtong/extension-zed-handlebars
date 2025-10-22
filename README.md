@@ -17,7 +17,7 @@ It provides HTML-based syntax highlighting and supports various template engines
 
 ## Technical Stack
 
-This extension uses the [Tree Sitter grammar for Handlebars](https://github.com/trillioneyes/tree-sitter-handlebars) created by Alyssa Carter, with HTML injection for comprehensive template highlighting.
+This extension uses the [Tree Sitter grammar for Handlebars](https://github.com/soomtong/tree-sitter-handlebars) created by soomtong, with HTML injection for comprehensive template highlighting.
 
 ## Installation
 
@@ -37,7 +37,8 @@ This extension uses the [Tree Sitter grammar for Handlebars](https://github.com/
 
 - [Handlebars Official Guide](https://handlebarsjs.com/guide/)
 - [Handlebars Specification](https://github.com/handlebars-lang/specification/blob/master/SPECIFICATION.md)
-- [Tree Sitter Handlebars Grammar](https://github.com/trillioneyes/tree-sitter-handlebars)
+- [Tree Sitter Handlebars Grammar](https://github.com/soomtong/tree-sitter-handlebars)
+- [Syntax highlighting](https://zed.dev/docs/extensions/languages#syntax-highlighting)
 
 ## License
 
@@ -45,4 +46,4 @@ MIT
 
 ## Credits
 
-Thank you to Alyssa Carter for creating the Tree Sitter grammar for Handlebars.
+Thank you to soomtong for creating the Tree Sitter grammar for Handlebars.

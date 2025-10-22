@@ -1,0 +1,11 @@
+id = "handlebars"
+name = "Handlebars"
+version = "0.1.0"
+schema_version = 1
+authors = ["soomtong <soomtong@example.com>"]
+description = "Handlebars template syntax highlighting for Zed."
+repository = "https://github.com/soomtong/extension-zed-handlebars"
+
+[grammars.handlebars_html]
+repository = "https://github.com/soomtong/tree-sitter-handlebars"
+commit = "69eb9e6b97a37aa42530cf962f3ca1089dc894a7"

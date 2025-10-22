@@ -1,0 +1,5 @@
+name = "Handlebars"
+grammar = "handlebars_html"
+path_suffixes = ["handlebars", "hdbs", "hbs", "hjs", "mst", "mu", "mustache", "stache"]
+autoclose_before = "}"
+brackets = [{ start = "{", end = "}", close = true, newline = true }]
